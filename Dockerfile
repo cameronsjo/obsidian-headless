@@ -50,6 +50,7 @@ USER 99:100
 ENV HOME=/config
 ENV DISPLAY=:99
 
+COPY --chown=99:100 LICENSE NOTICE.md /licenses/
 COPY --chown=99:100 entrypoint.sh /entrypoint.sh
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=3 \

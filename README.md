@@ -59,4 +59,6 @@ This image is a component of [OBaaSS (Obsidian As-a Safe-ish Service)](https://g
 
 ## License
 
-MIT
+[PolyForm Noncommercial 1.0.0](LICENSE). Commercial use requires a separate license — [get in touch](https://github.com/cameronsjo).
+
+Obsidian itself is proprietary software with its own [EULA](https://obsidian.md/eula). See [NOTICE.md](NOTICE.md) for details.
