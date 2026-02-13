@@ -1,4 +1,4 @@
-# obsidian-headless
+# obsidi-headless
 
 Minimal headless Obsidian container. Xvfb + the Obsidian desktop app — no VNC, no desktop environment, no GUI overhead.
 
@@ -10,7 +10,7 @@ Designed for server-side use where you need Obsidian running (for Sync, plugins,
 docker run -d \
   --name obsidian \
   -v obsidian-config:/config \
-  ghcr.io/cameronsjo/obsidian-headless:latest
+  ghcr.io/cameronsjo/obsidi-headless:latest
 ```
 
 ## What's Inside
@@ -47,10 +47,10 @@ Runs as UID `99` / GID `100` (matches Unraid's `nobody:users`). Override with `-
 ## Building
 
 ```bash
-docker build -t obsidian-headless .
+docker build -t obsidi-headless .
 
 # Specific Obsidian version
-docker build --build-arg OBSIDIAN_VERSION=1.12.1 -t obsidian-headless .
+docker build --build-arg OBSIDIAN_VERSION=1.12.1 -t obsidi-headless .
 ```
 
 ## Part of OBaaS
