@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/cameronsjo/obsidi-headless/compare/v1.0.0...v1.1.0) (2026-02-13)
+
+
+### Features
+
+* license, CI, and third-party notices ([6d3f41b](https://github.com/cameronsjo/obsidi-headless/commit/6d3f41b8bc3585a502b02df81c0a94d02e40be9d))
+
+
+### Bug Fixes
+
+* **ci:** tag latest on every main push, add multi-platform build ([e9152df](https://github.com/cameronsjo/obsidi-headless/commit/e9152dfbd2d98cf881a39c5c5c48ed8289d999b0))
+
 ## 1.0.0 (2026-02-12)
 
 
